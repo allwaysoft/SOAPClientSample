@@ -1,0 +1,11 @@
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<LoginResponse xmlns="http://test.org/ADMail_Service">
+			<LoginResult>
+				<ErrorMessage>Successful login</ErrorMessage>
+				<Status>true</Status>
+			</LoginResult>
+		</LoginResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
